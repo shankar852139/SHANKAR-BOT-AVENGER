@@ -1,5 +1,6 @@
 [build]
-  functions = "index.js"
+  functions = "netlify-functions"
+  command = "echo 'No build step defined'"
 
 [[redirects]]
   from = "/*"
